@@ -1,0 +1,314 @@
+Act as a senior SaaS product designer and create a complete interactive Figma UI for a web application called "ReelRewards".
+
+This platform allows users to earn money by watching Instagram reels.
+
+IMPORTANT REQUIREMENTS
+
+• The design must be mobile-first (primary focus on smartphone users)
+• Desktop layout should also exist but as a secondary layout
+• All screens must look realistic and functional with dummy data
+• Use modern card-based mobile UI similar to Instagram style apps
+• Include interactive prototype navigation between screens
+
+---
+
+THEME & VISUAL STYLE
+
+Design theme inspired by Instagram colors.
+
+Primary gradient:
+Red (#FF3B5C)
+Orange (#FF7A18)
+Pink (#E1306C)
+
+Use warm red/orange shades and gradients similar to Instagram branding.
+
+Typography:
+Inter / SF Pro style
+
+Mobile design rules:
+
+• Large readable fonts
+• Card-based layout
+• Rounded UI elements
+• Bottom navigation bar for mobile
+• Touch-friendly buttons
+
+---
+
+USER SIDE SCREENS
+
+Authentication
+
+Login
+Register
+Email verification
+Forgot password
+
+---
+
+User Dashboard (Mobile-first)
+
+Top wallet card showing:
+
+Wallet Balance
+Today's Earnings
+Remaining Reels
+
+Example dummy data:
+
+Wallet Balance: ₹325
+Today's Earnings: ₹12 / ₹20
+Reels Remaining: 3
+
+Below wallet card show reel cards with:
+
+Thumbnail
+Creator name
+Reward amount
+Watch status badge
+
+---
+
+Deposit Page
+
+Rules:
+
+Minimum deposit = ₹100
+
+Design a deposit screen where user can:
+
+Enter amount
+System validates minimum ₹100
+Show admin payment details (UPI / bank)
+
+Fields:
+
+Deposit amount
+Transaction reference number
+Upload payment screenshot
+
+Submit button.
+
+After submission show:
+
+"Deposit request submitted. Waiting for admin approval."
+
+---
+
+Withdrawal Page
+
+Withdrawal rules:
+
+Minimum withdrawal = ₹100
+If wallet balance exceeds ₹500 then show tax calculation.
+
+Show withdrawal summary card:
+
+Gross Amount
+Standard Tax (15%)
+Net Payout
+
+Example:
+
+Withdrawal Amount: ₹500
+Tax: ₹75
+Net payout: ₹425
+
+Show bank details form:
+
+Account Holder Name
+Account Number
+IFSC Code
+Bank Name
+
+---
+
+User Profile Page
+
+Show:
+
+Profile picture
+Name
+Email
+Wallet balance
+Tier level
+
+Tabs:
+
+Reel History
+Transactions
+Withdrawals
+
+---
+
+ADMIN PANEL (Mobile + Desktop responsive)
+
+Admin Dashboard
+
+Show KPI cards:
+
+Total Users
+Active Users Today
+Views Today
+Pending Withdrawals
+
+Add button:
+
+"View All Activities"
+
+Clicking this button should navigate to Activity Page.
+
+---
+
+Admin Activity Page
+
+Create a full activity log screen.
+
+Table columns:
+
+Timestamp
+Admin/User Action
+User Name
+Action Type
+Details
+
+Example activities:
+
+User registered
+Deposit approved
+Withdrawal completed
+User suspended
+
+---
+
+User Management Page
+
+Users list table:
+
+User ID
+Name
+Email
+Wallet Balance
+Tier Level
+Status
+
+Actions:
+
+View Profile
+
+---
+
+Admin User Profile Screen
+
+Show detailed information:
+
+User wallet balance
+Tier level
+Total earnings
+Join date
+Recent reel activity
+
+Admin controls:
+
+Deactivate User
+Activate User
+Adjust wallet balance
+
+All buttons must look functional in the prototype.
+
+---
+
+FINANCE MANAGEMENT
+
+Deposit Requests page
+
+Table columns:
+
+User
+Amount
+Reference number
+Submitted date
+Status
+
+Actions:
+
+Approve
+Reject
+
+---
+
+Withdrawal Requests page
+
+Columns:
+
+User
+Gross Amount
+Tax deduction
+Net payout
+Bank details
+
+Actions:
+
+Mark as Paid
+Reject
+
+---
+
+ANALYTICS PAGE
+
+Create analytics dashboard showing:
+
+Total platform earnings
+Daily active users chart
+Reel views chart
+Top earning users
+Top performing reels
+
+Use charts and cards.
+
+---
+
+COMPONENTS
+
+Create reusable UI components:
+
+Bottom navigation (mobile)
+Sidebar navigation (desktop)
+Wallet card
+Reel card
+Analytics card
+Tables
+Forms
+Buttons
+Status badges
+
+---
+
+PROTOTYPE INTERACTIONS
+
+Login → Dashboard
+
+Dashboard reel → Watch screen
+
+Deposit submit → Success screen
+
+Withdraw submit → Summary screen
+
+Admin Dashboard → View All Activities → Activity Page
+
+Users list → User Profile
+
+---
+
+OUTPUT STRUCTURE
+
+Organize Figma frames into:
+
+User App
+Admin Panel
+Components
+Mobile Layout
+Desktop Layout
+
+All screens must include realistic dummy data and appear fully functional.

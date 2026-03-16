@@ -1,0 +1,122 @@
+Act as a senior SaaS UI/UX designer.
+
+Design a complete interactive web application UI in Figma for a platform called "ReelRewards". The app allows users to earn money by watching Instagram reels assigned to them daily.
+
+IMPORTANT REQUIREMENTS
+• All screens must appear realistic and functional
+• Use dummy data but make it look like a working application
+• Include clickable navigation flow between screens
+• Follow modern SaaS dashboard design
+• Use card-based layouts and tables
+• Use clean minimal UI with Tailwind-style components
+• Make the design responsive for desktop (primary) and mobile friendly
+
+APP STRUCTURE
+
+User Side:
+
+Authentication Screens
+• Login
+• Register
+• Email verification
+• Forgot password
+
+User Dashboard
+• Wallet balance card
+• Daily earnings progress bar
+• Reel cards showing thumbnail, reward amount, and watch status
+• Today's assigned reels list
+
+Reel Watching Flow
+• Reel preview page
+• Timer page showing a countdown before confirming watch
+• Confirm watch button
+• Success state showing earning credited
+
+Wallet Section
+• Wallet overview with balance
+• Earnings history table
+• Deposit request form
+• Withdrawal request form with tax deduction preview
+
+Profile
+• User profile page
+• Bank details form
+• Account settings
+
+Admin Panel:
+
+Admin Login
+
+Admin Dashboard
+• KPI cards (Total users, views today, pending withdrawals, earnings paid)
+• Analytics charts
+• Recent activity table
+
+Reel Management
+• Reel list table with thumbnail preview
+• Add reel form
+• Edit reel modal
+
+User Management
+• User list table
+• User profile view
+• Wallet adjustment modal
+
+Finance
+• Deposit approval queue
+• Withdrawal approval queue
+
+Analytics
+• Top performing reels
+• Top earning users
+• Daily active users chart
+
+DESIGN SYSTEM
+
+Use a modern SaaS design system with:
+
+Primary color: Indigo (#6366F1)
+Success: Green (#22C55E)
+Warning: Amber (#F59E0B)
+Danger: Red (#EF4444)
+Background: Light gray (#F9FAFB)
+
+Typography: Inter font family
+Spacing: 8px grid system
+Rounded cards and soft shadows
+
+COMPONENTS
+
+Create reusable components:
+
+• Sidebar navigation
+• Top navbar
+• Reel card
+• Wallet summary card
+• KPI card
+• Tables
+• Forms
+• Buttons
+• Status badges
+
+DUMMY DATA EXAMPLES
+
+Wallet Balance: ₹325
+Today's Earnings: ₹12 / ₹20
+Reels Remaining: 3
+
+Admin Dashboard:
+Total Users: 1,245
+Views Today: 8,432
+Pending Withdrawals: 16
+
+OUTPUT FORMAT
+
+Generate a complete Figma frame structure including:
+
+• All screens for user and admin
+• Organized pages (User App / Admin Panel / Components)
+• Interactive prototype links between screens
+• Dummy data pre-filled
+• Modern SaaS style UI
